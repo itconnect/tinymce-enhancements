@@ -24,6 +24,12 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 					'wrapper' => true,
 				),
 				array(
+					'title' => 'Simplified Block Quote',
+					'block' => 'blockquote',
+					'classes' => 'simple injected',
+					'wrapper' => true,
+				),
+				array(
 					'title' => 'Callout Box',
 					'block' => 'div',
 					'classes' => 'emphasize',
