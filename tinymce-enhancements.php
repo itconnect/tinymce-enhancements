@@ -38,31 +38,29 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 					),
 					'wrapper' => false,
 				),
-				/* dl, dt, and dd may not be supported by TinyMCE. Holding until I'm sure.
 				array(
-					'title' => 'Descriptive List',
+					'title' => 'UW Buttons',
 					'items' => array(
 						array(
-							'title' => 'Wrapper',
-							'block' => 'dl',
-							'classes' => 'left',
-							'attributes' => array(
-								'aria-label' => 'descriptive list'
-							),
-							'wrapper' => true,
-						),
-						array(
-							'title' => 'Title',
-							'block' => 'dt',
+							'title' => 'Normal',
+							'block' => 'a',
+							'classes' => 'uw-btn',
 							'wrapper' => false,
 						),
 						array(
-							'title' => 'Description',
-							'block' => 'dd',
+							'title' => 'Smaller',
+							'block' => 'a',
+							'classes' => 'uw-btn-sm',
 							'wrapper' => false,
-						)
+						),
+						array(
+							'title' => 'Larger',
+							'block' => 'a',
+							'classes' => 'uw-btn-lg',
+							'wrapper' => false,
+						),
 					)
-				),*/
+				),
 				array(
 					'title' => 'Procedure',
 					'selector' => 'ol',
