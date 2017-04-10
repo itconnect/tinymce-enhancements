@@ -45,18 +45,27 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 							'title' => 'Normal',
 							'inline' => 'a',
 							'classes' => 'uw-btn',
+							'attributes' => array(
+								'href' => '#'
+							),
 							'wrapper' => false,
 						),
 						array(
 							'title' => 'Smaller',
 							'inline' => 'a',
 							'classes' => 'uw-btn-sm',
+							'attributes' => array(
+								'href' => '#'
+							),
 							'wrapper' => false,
 						),
 						array(
 							'title' => 'Larger',
 							'inline' => 'a',
 							'classes' => 'uw-btn-lg',
+							'attributes' => array(
+								'href' => '#'
+							),
 							'wrapper' => false,
 						),
 					)
