@@ -43,19 +43,19 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 					'items' => array(
 						array(
 							'title' => 'Normal',
-							'block' => 'a',
+							'inline' => 'a',
 							'classes' => 'uw-btn',
 							'wrapper' => false,
 						),
 						array(
 							'title' => 'Smaller',
-							'block' => 'a',
+							'inline' => 'a',
 							'classes' => 'uw-btn-sm',
 							'wrapper' => false,
 						),
 						array(
 							'title' => 'Larger',
-							'block' => 'a',
+							'inline' => 'a',
 							'classes' => 'uw-btn-lg',
 							'wrapper' => false,
 						),
