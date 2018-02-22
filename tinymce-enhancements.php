@@ -81,7 +81,7 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 				),
 				array(
 					'title' => 'Page subtitle',
-					'block' => 'div',
+					'block' => 'span',
 					'classes' => 'page-subtitle injected',
 					'wrapper' => true,
 				),
