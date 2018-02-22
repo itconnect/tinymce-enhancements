@@ -80,6 +80,12 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 					'wrapper' => false,
 				),
 				array(
+					'title' => 'Page subtitle',
+					'block' => 'div',
+					'classes' => 'page-subtitle injected',
+					'wrapper' => true,
+				),
+				array(
 					'title' => 'Table of contents',
 					'selector' => 'ul',
 					'classes' => 'ptoc injected',
