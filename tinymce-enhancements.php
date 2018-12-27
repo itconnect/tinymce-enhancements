@@ -83,7 +83,7 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 					'title' => 'Page subtitle',
 					'block' => 'div',
 					'classes' => 'subtitle injected',
-					'wrapper' => true,
+					'wrapper' => false,
 				),
 				array(
 					'title' => 'Table of contents',
