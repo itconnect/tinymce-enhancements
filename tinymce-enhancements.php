@@ -39,7 +39,7 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 					'wrapper' => false,
 				),
 				array(
-					'title' => 'Importnat Information',
+					'title' => 'Important Information',
 					'block' => 'div',
 					'classes' => 'important-box',
 					'attributes' => array(
