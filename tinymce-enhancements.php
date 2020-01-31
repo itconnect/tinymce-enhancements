@@ -39,6 +39,15 @@ function tinymce_enhancements_before_init_insert_formats( $init_array ) {
 					'wrapper' => false,
 				),
 				array(
+					'title' => 'Importnat Information',
+					'block' => 'div',
+					'classes' => 'important-box',
+					'attributes' => array(
+						'aria-label' => 'mportant'
+					),
+					'wrapper' => false,
+				),
+				array(
 					'title' => 'UW Buttons',
 					'items' => array(
 						array(
